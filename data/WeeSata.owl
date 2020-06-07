@@ -1,0 +1,400 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY untitled-ontology-8 "http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:untitled-ontology-8="http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#dskripsi -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-8;dskripsi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#gambar -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-8;gambar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#harga -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-8;harga"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#hari -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-8;hari"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#jam -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-8;jam"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#jenis -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-8;jenis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#kota -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-8;kota"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#lokasi -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-8;lokasi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#nama -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-8;nama"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata -->
+
+    <owl:Class rdf:about="&untitled-ontology-8;Wisata"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata1 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata1">
+        <hari>Setiap hari</hari>
+        <jam>07.00 - 17.00 WIB</jam>
+        <nama>Kawah Putih</nama>
+        <harga>Rp 50.000</harga>
+        <lokasi>Desa Alam Endah, Kecamatan Rancabali, Kabupaten Bandung Jawa Barat</lokasi>
+        <kota>Kabupaten Bandung</kota>
+        <gambar>https://anekatempatwisata.com/wp-content/uploads/2015/07/Kawah-Putih-Ciwidey-300x200.jpg</gambar>
+        <jenis>Wisata Alam
+</jenis>
+        <dskripsi>Kawah putih Ciwidey merupakan sebuah danau yang terbentuk akibat adanya letusan dari gunung berapi yang masih aktif pada masa itu yaitu Gunung Patuha. Di sekitar kawah ini memiliki warna putih yang timbul akibat adanya percampuran dari unsur belerang.</dskripsi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata10 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata10">
+        <gambar>https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQsBn_1f8k6Y20QzNWosdPubnCYVoSFw9lgxYGAJzWO5JPoYYc3&amp;usqp=CAU</gambar>
+        <dskripsi>Museum Geologi didirikan pada tanggal 16 Mei 1929 Museum ini telah direnovasi dengan dana bantuan dari JICA. Setelah mengalami renovasi, Museum Geologi dibuka kembali dan diresmikan oleh Wakil Presiden RI, Megawati Soekarnoputri pada tanggal 23 Agustus 2000</dskripsi>
+        <harga>Rp 3.000</harga>
+        <lokasi>Jl. Diponegoro No.57, Cihaur Geulis, Kec. Cibeunying Kaler, Kota Bandung, Jawa Barat</lokasi>
+        <jenis>Wisata Sejarah</jenis>
+        <nama>Musium Geologi Bandung</nama>
+        <kota>Kota Bandung</kota>
+        <jam>08.00 - 16.00 WIB</jam>
+        <hari>Setiap Hari</hari>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata11 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata11">
+        <dskripsi>Tebing yang berada di dalam kawasan Taman Hutan Raya Ir. H. Djuanda. Tebing ini terletak di Kampung Ciharegem Puncak, Desa Ciburial, Bandung, Jawa Barat, Indonesia. Dari Tebing Keraton dapat menikmati pemandangan spektakuler. Bukan lampu kota, melainkan hutan</dskripsi>
+        <lokasi>Ciburial, Kec. Cimenyan, Kabupaten Bandung Barat, Jawa Barat</lokasi>
+        <jam>09.00 - 17.00 WIB</jam>
+        <gambar>https://www.thenamhai.com/wp-content/uploads/2019/09/tebing-keraton.jpg</gambar>
+        <nama>Tebing Keraton</nama>
+        <harga>Rp 11.000</harga>
+        <hari>Setiap Hari</hari>
+        <kota>Kabupaten Bandung Barat</kota>
+        <jenis>Wisata Alam</jenis>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata12 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata12">
+        <gambar>https://camerawisata.com/wp-content/uploads/2019/08/DagoBakery-Punclut-1.jpg</gambar>
+        <nama>Dago Bakery Punclut Cafe</nama>
+        <kota>Kabupaten Bandung Barat</kota>
+        <hari>Setiap Hari</hari>
+        <jam>09.00 - 22.00 WIB</jam>
+        <jenis>Wisata Kuliner</jenis>
+        <harga>Rp 0</harga>
+        <dskripsi>Dago Bakery Punclut adalah sebuah restoran yang memiliki konsep ala Eropa klasik. Hal ini dikuatkan dengan desain bangunan dan penataan ruang yang sangat menyerupai desain Eropa Klasik. Dengan lokasinya yang berada di dataran tinggi sehingga dapat menikmati makanan dengan pemandangan alam yang sangat bagus.</dskripsi>
+        <lokasi>Jl. Pagermaneuh No.57, Pagerwangi, Lembang, Kabupaten Bandung Barat, Jawa Barat</lokasi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata13 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata13">
+        <kota>Kota Bandung</kota>
+        <lokasi>Jl. Pakar Kulon No.13, Ciburial, ,Cimenyan,Bandung,Jawa Barat</lokasi>
+        <hari>Setiap Hari</hari>
+        <gambar>https://travelspromo.com/wp-content/uploads/2018/07/tahura-tebing-keraton.jpg</gambar>
+        <harga>Rp 15.000</harga>
+        <nama>Taman Hutan Raya Ir. Juanda</nama>
+        <jam>07.30 - 16.30 WIB</jam>
+        <jenis>Wisata Alam</jenis>
+        <dskripsi> salah satu kawasan hutan kota lokasinya tidak jauh dari pusat kota hal sehingga hal ini yang membuat babakan siliwangi menjadi ruang terbuka hijau yang paling terjangkau oleh masyarakat kota bandung.</dskripsi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata14 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata14">
+        <nama>Farm House Lembang</nama>
+        <dskripsi>Taman hiburan dengan bangunan bergaya Eropa, kostum Belanda untuk disewa, kebun binatang mini &amp; resto trendi.</dskripsi>
+        <gambar>https://armitafibri.com/wp-content/uploads/2017/10/Farm-House-Lembang.jpg</gambar>
+        <jam>08.00 - 20.00 WIB</jam>
+        <harga>Rp 25.000</harga>
+        <kota>Kabupaten Bandung Barat</kota>
+        <jenis>Wisata Alam</jenis>
+        <lokasi>Jl. Raya Lembang No.108, Gudangkahuripan, Lembang, Kabupaten Bandung Barat, Jawa Barat</lokasi>
+        <hari>Setiap Hari</hari>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata15 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata15">
+        <hari>Setiap Hari</hari>
+        <dskripsi>Gunung Papandayan adalah gunung api strato yang terletak di Kabupaten Garut, Jawa Barat tepatnya di Kecamatan Cisurupan. Gunung dengan ketinggian 2665 meter di atas permukaan laut itu terletak sekitar 70 km sebelah tenggara Kota Bandung. Pada Gunung Papandayan, terdapat beberapa kawah yang terkenal</dskripsi>
+        <kota>Kabupaten Garut</kota>
+        <harga>Rp 0</harga>
+        <jam>24 Jam</jam>
+        <jenis>Wisata Alam</jenis>
+        <lokasi>Karamat Wangi, Cisurupan, Kabupaten Garut, Jawa Barat</lokasi>
+        <gambar>https://digarut.com/assets/Gunung-papandayan.jpg</gambar>
+        <nama>Gunung Papandayan</nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata16 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata16">
+        <nama>Gunung Pancar</nama>
+        <jenis>Wisata Alam</jenis>
+        <jam>24 Jam</jam>
+        <hari>Setiap Hari</hari>
+        <lokasi>Desa Karang Tengah, Babakan Madang, Bogor, Jawa Barat</lokasi>
+        <harga>Rp 5.000</harga>
+        <kota>Kota Bogor</kota>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata17 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata17"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata18 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata18"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata19 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata19"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata2 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata2">
+        <gambar>https://ksmtour.com/media/images/articles14/tangkuban-perahu-jawa-barat_medium.jpg</gambar>
+        <dskripsi>Tangkuban Parahu merupakan salah satu gunung terbesar di dataran Parahyangan yang tentunya tidak akan terlepas dengan cerita yang sudah melegenda di masyarakat, yaitu legenda Sangkuriang</dskripsi>
+        <nama>Gunung Tangkuban Perahu</nama>
+        <hari>Setiap Hari</hari>
+        <kota>Kabupaten Bandung Barat</kota>
+        <jenis>Wisata Alam</jenis>
+        <jam>08.00 - 17.00 WIB</jam>
+        <harga>Rp 15.000</harga>
+        <lokasi>Cikahuripan, Lembang, Kabupaten Bandung Barat, Jawa Barat</lokasi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata20 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata20"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata3 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata3">
+        <lokasi>Genteng, Cikole, Lembang, Kabupaten Bandung Barat, Jawa Barat</lokasi>
+        <nama>Orchid Forest Cikole</nama>
+        <jam>09.00 - 18.00 WIB</jam>
+        <hari>Setiap Hari</hari>
+        <harga>Rp 25.000</harga>
+        <kota>Kabupaten Bandung Barat</kota>
+        <gambar>https://dirgantaracarrental.com/wp-content/uploads/2019/07/Orchid-Forest-Cikole-Indahnya-Bunga-Anggrek-Di-Lembang-768x427.jpg</gambar>
+        <jenis>Wisata Alam</jenis>
+        <dskripsi> Merupakan taman Anggrek terbesar di Indonesia, orchid forest ini memiliki keunikan tersendiri. 
+ Orchid Forest Cikole memang terletak dekat dengan objek wisata Gunung Tangkuban Perahu. Sepanjang jalan menuju lokasi ini, akan disuguhkan pemandangan hutan pinus disertai kabut-kabut tipis di sepanjang jalan. Tetapi tempat wisata ini sangat jauh dari pusat kota bandung, disarankan menggunakan kendaraan sendiri-sendiri.</dskripsi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata4 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata4">
+        <nama>Forest Walk Babakan Siliwangi</nama>
+        <lokasi>Jl. Tamansari No.73, Lb. Siliwangi, Kecamatan Coblong, Kota Bandung, Jawa Barat </lokasi>
+        <harga>Rp 0</harga>
+        <jam>24 Jam</jam>
+        <gambar>https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTWZE1AHHAm5yEWSgjq6cZ6G1H6OfIgNtvWxPmt6Ohz3lvv327o&amp;usqp=CAU</gambar>
+        <jenis>Wisata Alam</jenis>
+        <hari>Setiap Hari</hari>
+        <dskripsi>salah satu kawasan hutan kota lokasinya tidak jauh dari pusat kota hal sehingga hal ini yang membuat babakan siliwangi menjadi ruang terbuka hijau yang paling terjangkau oleh masyarakat kota bandung.</dskripsi>
+        <kota>Bandung</kota>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata5 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata5">
+        <lokasi>Jl. Raya Cijulang - Green Canyon, RT.02/RW.10, Cijulang, Pangandaran, Jawa Barat </lokasi>
+        <nama>Green Canyon Rafting
+</nama>
+        <dskripsi>Green Canyon di Pangandaran adalah destinasi yang bisa dikategorikan sebagai lanskap tropis yang unik, diantara kedua dinding ngarai yang berwarna hijau karena ditumbuhi lumut ini anda bisa langsung melihat fenomena alam yang menarik, adanya stalagtit dan stalagmit yang dapat disaksikan secara langsung diruang terbuka, bukannya di kedalaman lorong-lorong gua bawah tanah.</dskripsi>
+        <jenis>Wisata Alam</jenis>
+        <hari>Setiap Hari</hari>
+        <gambar>https://2.bp.blogspot.com/-d-FjGrWh3_8/Vdz-npBsGmI/AAAAAAAAAXI/bcLxBpInZ08/s780/greencanyon.jpg</gambar>
+        <harga>Rp 200.000 - Rp 350.000</harga>
+        <jam>07.00 - 16.00 WIB</jam>
+        <kota>Kota Pangandaran</kota>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata6 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata6">
+        <kota>Kota Bandung</kota>
+        <dskripsi>Trans Studio Bandung merupakan Indoor Theme Park terbesar kedua yang telah ada di Indonesia setelah Makassar. Bukan hanya terbesar di Indonesia tempat bermain ini juga menjadi terbesar di dunia. Berbagai macam wahana permainan menarik telah tersedia dan menjadikan Trans Studio Bandung sebagai taman bermain paling komplit di kota Bandung,Jawa Barat</dskripsi>
+        <harga>Rp 280.000</harga>
+        <hari>Setiap Hari</hari>
+        <jenis>Wisata Indoor</jenis>
+        <gambar>https://i.ytimg.com/vi/0-qPSQgVokU/maxresdefault.jpg</gambar>
+        <lokasi>Jalan Jendral Gatot Subroto No.289 A, Cibangkong, Batununggal, Kota Bandung, Jawa Barat </lokasi>
+        <jam>10.00 - 18.00 WIB</jam>
+        <nama>Trans Studio Bandung</nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata7 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata7">
+        <gambar>https://anekatempatwisata.com/wp-content/uploads/2014/08/Gedung-Sate.jpg</gambar>
+        <lokasi>Jl. Diponegoro No.22, Citarum, Kec. Bandung Wetan, Kota Bandung, Jawa Barat </lokasi>
+        <nama>Gedung Sate</nama>
+        <kota>Kota Bandung</kota>
+        <dskripsi>Disebut sebagai Gedung Sate karena gedung ini mempunyai ciri khas yang unik, yaitu ornamen 6 tusuk sate yang ada di atas menara sentral. 6 tusuk sate ini melambangkan 6 juta Gulden yang dipakai untuk membangun gedung berwarna putih ini pada masanya. Gedung ini sangat terkenal tidak hanya di kota Bandung saja, melainkan juga sudah terkenal di Jawa Barat dan Indonesia.</dskripsi>
+        <harga>Rp 5.000</harga>
+        <jenis>Wisata Sejarah</jenis>
+        <jam>9.30 - 16.00 WIB</jam>
+        <hari>Setiap Hari</hari>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata8 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata8">
+        <jam>08.00 - 20.00 WIB</jam>
+        <nama>Floating Market Lembang</nama>
+        <gambar>https://www.hargatiket.net/wp-content/uploads/2018/06/Floating-Market-Lembang.jpg</gambar>
+        <lokasi>Jl. Grand Hotel No.33E, Lembang, Kabupaten Bandung Barat, Jawa Barat</lokasi>
+        <dskripsi>Konsep Tempat Wisata Di Lembang ini adalah ‘Desa dan Kampung Wisata’ yang mana menawarkan jenis wisata dengan latar alam khas pedesaan yang asri dan sejuk di sekitar Lembang yang memang dikenal sejuk udaranya dan indah pemandangan alamnya.Diresmikan operasionalnya mulai tanggal 12 Desember 2012,Floating Market kini menjadi wisata unggulan daerah Lembang.</dskripsi>
+        <kota>Kabupaten Bandung Barat</kota>
+        <harga>Rp 20.000 - Rp 30.000</harga>
+        <hari>Setiap Hari</hari>
+        <jenis>Wisata Alam</jenis>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/5/untitled-ontology-8#Wisata9 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-8;Wisata9">
+        <gambar>https://www.daerahkita.com/gambar/wisata-alam-dago-dream-park-bandung-1.jpg</gambar>
+        <hari>Setiap Hari</hari>
+        <harga>Rp 25.000 - Rp 30.000</harga>
+        <nama>Dago Dream Park</nama>
+        <jenis>Wisata Alam</jenis>
+        <lokasi>Jl. Dago Giri Km. 2.2 Mekarwangi, Pagerwangi, Lembang, Kabupaten Bandung Barat, Jawa Barat</lokasi>
+        <dskripsi>Dago Dream Park mulai beroperasi sekitar Juli 2016, dan langsung menyedot animo pengunjung. Tipikal destinasi wisata di Bandung sepertinya memang begitu sih. Asalkan bagus, terdapat fasilitas lengkap, dan banyak spot selfie, biasanya langsung di serbu  pengunjung. Area Dago Dream Park cukup luas, dengan kontur berbukit. Suasana alami di tempat ini terjaga sehingga terasa lebih fresh. Banyaknya pilihan wahana, spot berfoto, dan juga fasilitas yang ada tentunya bakal bisa memanjakan liburan anda sekeluarga.</dskripsi>
+        <jam>09.00 - 17.00 WIB</jam>
+        <kota>Kabupaten Bandung Barat</kota>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
